@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>RG FCC Product Landing Page Final</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-fixed-top" id="nav-bar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-coffee" aria-hidden="true"></i></i> TEA+TEA</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+<header id="home">
+  <div class="text-box">
+    <h1>Introducing Colorful Fermented Teas</h1>
+    <p>Exotic teas for adventurous folks</p>
+    <a class="btn" href="#video">Watch Video</a>
+    <a class="btn" href="#get-started">Get Started</a>
+  </div>
+</header>
+
+<section class="section-features" id="features">
+  <div class="row">
+    <h2>Quality at its best</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-sm-4">
+      <i class="fas fa-ship icon-p"></i>
+      <h3>Fair Trade Certified</h3>
+        <p>Ridiculus mattis. Elementum iaculis. Nisi dis ornare taciti rhoncus ultricies vivamus risus.</p>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <i class="far fa-check-circle icon-p"></i>
+      <h3>Quality control</h3>
+        <p>Vitae Platea nulla hymenaeos, magnis accumsan nec ad consequat nisi lobortis. Tortor taciti proin natoque non habitasse.</p>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <i class="fas fa-shopping-basket icon-p"></i>
+      <h3>100% organic</h3>
+        <p>Quam enim. Etiam vel scelerisque laoreet natoque enim odio a dignissim urna commodo fames nullam nascetur.</p>
+    </div>
+ </div>
+</section>
+
+<section>
+    <div class="row">
+    <h2>Our teas</h2>
+
+    <section class="section-products" id="products">
+<div class="row">
+    <div class="col-md-4 col-sm-4">
+      <img src="https://i.imgur.com/UwGwLSN.png" alt="Green Citrus Fermented" width=100% height=100% />
+    <div class="box">
+      <h3>Green+citrus fermented</h3>
+        <p>Vitae Dictum venenatis. Penatibus.</p>
+        <p>Justo malesuada.</p>
+        <p>Penatibus amet mattis aenean.</p>
+    </div>
+  </div>
+<div class="row">
+    <div class="col-md-4 col-sm-4">
+      <img src="https://i.imgur.com/Bp3eHVC.png" alt="Green Rose Fermented" width=100% height=100% />
+    <div class="box">
+      <h3>Green+rose fermented</h3>
+        <p>Vitae Dictum venenatis. Penatibus.</p>
+        <p>Justo malesuada.</p>
+        <p>Penatibus amet mattis aenean.</p>
+    </div>
+ </div>
+<div class="row">
+    <div class="col-md-4 col-sm-4">
+       <div class="box">
+      <img src="https://i.imgur.com/vgk1oNv.png" alt="Green Tulsi fermented" width=100% height=100% />
+      <h3>Lavender fermented tulsi</h3>
+        <p>Vitae Dictum venenatis. Penatibus.</p>
+        <p>Justo malesuada.</p>
+        <p>Penatibus amet mattis aenean.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-video" id="video">
+  <div class="row">
+    <h2>Health benefits of fermented tea</h2>
+  </div>
+  <div class="row">
+    <div class="videoWrapper">
+      <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/_zT5pBeA_UE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section-plan" id="get-started">
+  <div class="row">
+    <h2>Purchase Teas</h2>
+  </div>
+
+<!-- Nav purchase teas-->
+<nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+    <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+    </div>
+</nav>
+
+
+<!-- Main -->
+<div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://i.imgur.com/jvB4Kjht.jpg?1" alt="Tea 1">
+  <div class="card-block">
+    <h4 class="card-title">Green Citrus
+    </h4>
+    <p class="card-text">Price: $0.5</p>
+    <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://i.imgur.com/fIxMRO2t.jpg?1" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Green Lavender</h4>
+    <p class="card-text">Price: $1.22</p>
+    <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://i.imgur.com/QcABVcAt.jpg?1" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Green Rose</h4>
+    <p class="card-text">Price: $5</p>
+    <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+  </div>
+
+   <!-- Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="show-cart table">
+
+          </table>
+          <div>Total price: $<span class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="row">
+    <h2>Contact us</h2>
+  </div>
+  <div class="row">
+    <form method="post" action="#" class="contact-form">
+      <div class="row">
+        <div class="col-md-3">
+          <label for="name">Name</label>
+        </div>
+      <div class="col-md-9">
+        <input type="text" name="name" id="name" placeholder="Your name" required>
+        </div>
+      </div>
+      <div class="row">
+            <div class="col-md-3">
+              <label for="email">Email</label>
+            </div>
+          <div class="col-md-9">
+            <input type="email" name="email" id="email" placeholder="Your email" required>
+            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <label for="message">Messages</label>
+        </div>
+        <div class="col-md-9">
+          <textarea name="message" id="message" placeholder="Your message"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sub">
+          <input type="submit" value="Send it">
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+   <div class="row">
+    <div class="col-sm-4">
+      <ul class="footer-nav">
+        <h4>About</h4>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Shipping Information</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms Of Service</a></li>
+      </ul>
+   </div>
+
+   <div class="col-sm-4 col-sm-offset-4">
+      <ul class="footer-nav">
+        <h4>Contact</h4>
+        <li><i class="fas fa-clock" aria-hidden="true"></i> Daily 9AM - 10PM EST</li>
+        <li><i class="fas fa-phone" aria-hidden="true"></i> 1-202-555-3333</li>
+        <li><i class="fas fa-envelope" aria-hidden="true"></i> info&#64;tea+tea.com</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <br>
+  <div class="row">
+    <div class="social">
+      <a href="https://github.com/rgono2" target="_blank">
+        <span class="icon"><i class="fab fa-github"></i></span></a>
+      <a href="https://codepen.io/rgono2/" target="_blank">
+        <span class="icon"><i class="fab fa-codepen"></i></span></a>
+      <a href="https://www.freecodecamp.org/rgono2" target="_blank">
+        <span class="icon"><i class="fab fa-free-code-camp"></i></span></a>
+    </div>
+  </div>
+  <p style="text-align:center">&copy 2020 RMonj Digital</p>
+</footer>
+</body>
+</html>
